@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "axios": "^1.3.0",
+    "dotenv": "^16.0.3",
+    "node-cron": "^3.0.2",
+    "nodemailer": "^6.9.1",
+    "nodemailer-sendinblue-transport": "^2.0.1",
+    "sib-api-v3-sdk": "^8.5.0",
+    "twilio": "^3.84.1"
+  },
+  "name": "uptime-monitor",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
