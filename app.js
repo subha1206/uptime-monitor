@@ -26,7 +26,7 @@ const transactionalEmailApi = new Sib.TransactionalEmailsApi();
 
 let alreadySent = false;
 
-cron.schedule(`*/15 * * * *`, async () => {
+cron.schedule(`*/5 * * * *`, async () => {
     const res = await axios.get(process.env.CHECK_URL);
     if (res.status !== 200 && !alreadySent) {
         transactionalEmailApi
